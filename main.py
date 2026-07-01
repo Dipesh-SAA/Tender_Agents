@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from business_need_to_requirements_agent.app.api.router.router import router
 from fastapi.middleware.cors import CORSMiddleware
-from GrammerAI.app.api.router.routes import router as grammar_router
+from sentance_phraser_agent.app.api.router.routes import router as grammar_router
 
 app = FastAPI(
     title="Tender Agents API",
